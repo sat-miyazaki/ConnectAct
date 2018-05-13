@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html, body {
+  color: #333;
+  font-family: "Rounded Mplus 1c";
+  font-size: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #0066DA;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.site-header {
+  height: 60px;
+  overflow: hidden;
+
+  .logo {
+    float: left;
+    font-size: 35px;
+    letter-spacing: -1px;
+    line-height: 60px;
+
+    a {
+      color: #333;
+      text-decoration: none;
+      font-size: 35px;
+    }
+  }
+
+  .inner {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+
+  .global-navi {
+    float: right;
+    padding: 0 20px;
+    ul {
+      li {
+        display: inline-block;
+        height: 60px;
+        line-height: 60px;
+      }
+    }
+  }
+}
+
+.contents-area {
+  margin: 0 auto;
+  max-width: 1024px;
+  overflow: hidden;
+}
+
+.info-table {
+  width: 100%;
+  border-bottom: 1px solid #EDEDED;
+
+  th {
+    width: 80px;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #EDEDED;
+  }
+}
+
+
+.site-footer {
+  background: #333;
+  clear: both;
+  p {
+    color: #fff;
+    line-height: 30px;
+    text-align: right;
+  }
+  .inner {
+    height: 30px;
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+}

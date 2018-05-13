@@ -1,0 +1,109 @@
+.profile {
+
+  .contents-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .profile-header {
+    margin-bottom: 20px;
+    .profile-title {
+      font-size: 2rem;
+    }
+  }
+  .image-area {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+
+    img {
+      margin-left: 5px;
+      border-radius: 3px;
+      width: 100%;
+      box-shadow: 1px 2px 8px rgba(0,0,0,0.2);
+    }
+  }
+  .info-area {
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+    padding-left: 40px;
+    margin-bottom: 50px;
+
+    .description {
+      padding: 20px;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      background: #FAFAFA;
+      border-radius: 5px;
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .sns {
+      font-size: 2rem;
+      a {
+        margin-right: 20px;
+        display: inline-block;
+      }
+    }
+  }
+  .stage-area {
+    clear: both;
+    margin-bottom: 50px;
+
+    .stage-list {
+      display: block;
+      margin: 0 40px;
+
+      li {
+        height: 250px;
+        margin: 0 5px;
+      }
+
+      .slick-prev:before, .slick-next:before {
+        color: #333333;
+      }
+    }
+  }
+  .photo-area {
+    clear: both;
+    margin-bottom: 50px;
+    
+    .photo-list {
+      margin: 0 40px;
+
+      li {
+        margin: 0 10px;
+        img {
+          border-radius: 3px;
+          width: 100%;
+          box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+        }
+      }
+
+      .slick-prev:before, .slick-next:before {
+        color: #333333;
+      }
+    }
+  }
+  .history-area {
+    margin-bottom: 50px;
+
+    .history-list {
+      margin-left: 20px;
+      dt {
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      dd {
+        margin-left: 20px;
+        line-height: 2rem;
+      }
+    }
+  }
+}

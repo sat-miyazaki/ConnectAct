@@ -1,0 +1,121 @@
+.troupe {
+  .contents-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .troup-header {
+    margin-bottom: 20px;
+    .troup-name {
+      font-size: 2rem;
+    }
+  }
+
+  .image-area {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+
+    img {
+      width: 100%;
+    }
+  }
+  .info-area {
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-bottom: 50px;
+
+    .description {
+      padding: 20px;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      background: #FAFAFA;
+      border-radius: 5px;
+
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .stage-area {
+    clear: both;
+    margin-bottom: 50px;
+
+    .stage-list {
+      display: block;
+      margin: 0 40px;
+
+      li {
+        margin: 0 10px 10px;
+      }
+
+      .slick-prev:before, .slick-next:before {
+        color: #333333;
+      }
+    }
+  }
+  .member-area {
+    margin-bottom: 50px;
+
+    .member-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 20px;
+
+      li {
+        display: block;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 16.5%;
+
+        a:active {
+          .member-image {
+            box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+          }
+        }
+
+        .member-image {
+          height: 150px;
+          overflow: hidden;
+          margin-bottom: 5px;
+          border-radius: 3px;
+          box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+
+          &.member-6509 {
+            background: url("/_assets/image/troupe/4161/member/6509.png") no-repeat center top;
+            background-size: cover;
+          }
+          &.member-6370 {
+            background: url("/_assets/image/troupe/4161/member/6370.jpg") no-repeat center top;
+            background-size: cover;
+          }
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .member-name {
+          text-align: center;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .detail-area {
+    margin-bottom: 50px;
+
+    .info-table {
+      margin-left: 20px;
+      th {
+        width: 100px;
+      }
+    }
+  }
+
+}

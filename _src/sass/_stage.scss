@@ -1,0 +1,103 @@
+.stage {
+
+  .contents-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .stage-header {
+    margin-bottom: 20px;
+    .stage-title {
+      font-size: 2rem;
+    }
+  }
+  .image-area {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+
+    img {
+      width: 100%;
+      border: 1px solid #CCCCCC;
+    }
+  }
+  .info-area {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-bottom: 50px;
+
+    .description {
+      padding: 20px;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      background: #FAFAFA;
+      border-radius: 5px;
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .schedule-area {
+    clear: both;
+    margin-bottom: 50px;
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-left: 20px;
+      th {
+        background: #DDDDDD;
+        padding: 5px 10px;
+        border: 1px solid #FFFFFF;
+      }
+      td {
+        text-align: center;
+        border: 1px solid #DDDDDD;
+      }
+    }
+  }
+  .movie-area {
+    h2 {
+      text-align: left;
+    }
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .photo-area {
+    margin-bottom: 50px;
+
+    .photo-list {
+      margin: 0 40px;
+      li {
+        overflow: hidden;
+        height: 200px;
+
+        img {
+          height: 100%;
+        }
+      }
+
+      .slick-prev:before, .slick-next:before {
+        color: #333333;
+      }
+    }
+  }
+  .detail-area {
+    margin-bottom: 50px;
+    .info-table {
+      margin-left: 20px;
+      th {
+        width: 150px;
+      }
+    }
+    .staff-list {
+      th, td {
+        border: 0;
+        padding: 5px;
+      }
+    }
+  }
+}
